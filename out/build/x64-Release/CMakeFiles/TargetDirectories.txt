@@ -1,0 +1,3 @@
+C:/Users/PC/source/repos/checkers/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/PC/source/repos/checkers/out/build/x64-Release/CMakeFiles/checkers.dir
+C:/Users/PC/source/repos/checkers/out/build/x64-Release/CMakeFiles/edit_cache.dir

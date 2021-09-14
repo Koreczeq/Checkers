@@ -1,0 +1,15 @@
+# ninja log v5
+43	651	651872163	CMakeFiles/checkers.dir/src/Model/Checker.cpp.obj	a07a0199310a76e8
+1	662	651872163	CMakeFiles/checkers.dir/src/Model/Model.cpp.obj	6fb72aecd0d7728b
+56	670	651872163	CMakeFiles/checkers.dir/src/Model/Board.cpp.obj	66a913dae8bedbfe
+31	675	651872163	CMakeFiles/checkers.dir/src/Model/Player.cpp.obj	43cb4db9a20b1fd9
+19	1042	651872163	CMakeFiles/checkers.dir/checkers.cpp.obj	31e0ecdc9840f93f
+1043	2743	651872164	checkers.exe	82eb9d78fa62aa4d
+52	395	652292080	CMakeFiles/checkers.dir/sources/Model/Checker.cpp.obj	3d53582c8fef0144
+2	412	652292080	CMakeFiles/checkers.dir/sources/Model/Model.cpp.obj	5a30483934bff95a
+41	415	652292080	CMakeFiles/checkers.dir/sources/Model/Player.cpp.obj	947245cbdf23c57b
+63	416	652292080	CMakeFiles/checkers.dir/sources/Model/Board.cpp.obj	2c4d4174bc046a30
+29	858	652292081	CMakeFiles/checkers.dir/sources/Controller/Controller.cpp.obj	5d2849041e33f04b
+74	881	652292081	CMakeFiles/checkers.dir/sources/View/View.cpp.obj	1819ce22eebdbc6b
+16	883	652292081	CMakeFiles/checkers.dir/checkers.cpp.obj	31e0ecdc9840f93f
+883	1899	652292081	checkers.exe	e01240542acde06b
