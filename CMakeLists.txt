@@ -21,7 +21,7 @@ add_executable (
 	"sources/Controller/Controller.h" 
 	"sources/Controller/Controller.cpp" 
 	"sources/View/View.h" 
-	"sources/View/View.cpp")
+	"sources/View/View.cpp" "sources/Model/Player.h" "sources/Model/Player.cpp")
 
 target_link_libraries(checkers ${CMAKE_SOURCE_DIR}/libraries/sfml-graphics.lib)
 target_link_libraries(checkers ${CMAKE_SOURCE_DIR}/libraries/sfml-audio.lib)

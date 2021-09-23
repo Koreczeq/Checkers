@@ -3,8 +3,9 @@
 void Board::setBoard()
 {
 	squares.empty();
-	for(int y = 0; y < BOARD_SIZE; y++) {
-		for (int x = y % 2; x < BOARD_SIZE; x++) {
+	for(int x = 0; x < BOARD_SIZE; x++) {
+		std::vector<Square> temp;
+		for (int y = 0; y < BOARD_SIZE; y++) {
 			SquareState state;
 			if (x % 2 != y % 2)
 				state = SquareState::empty;
@@ -15,8 +16,9 @@ void Board::setBoard()
 			else
 				state = SquareState::black;
 			Square square = { x, y, state };
-			squares.push_back(square);
+			temp.push_back(square);
 		}
+		squares.push_back(temp);
 	}
 }
 

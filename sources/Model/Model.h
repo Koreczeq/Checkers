@@ -1,18 +1,27 @@
 #pragma once
 #include "Board.h"
 #include <memory>
+#include <iostream>
+#include <optional>
+
 
 enum class gameState {chooseWhite, moveWhite, chooseBlack, moveBlack};
 
 class Model {
 	std::shared_ptr<Board> board = std::make_shared<Board>();
-	std::list<Square>::iterator findSquare(int x, int y);
-	void chooseWhite(std::list<Square>::iterator square);
-	void moveWhite(std::list<Square>::iterator square);
-	void chooseBlack(std::list<Square>::iterator square);
-	void moveBlack(std::list<Square>::iterator square);
-	gameState gameState;
+	void chooseWhite(Square square);
+	void moveWhite(Square square);
+	void chooseBlack(Square square);
+	void moveBlack(Square square);
+	bool setMoves(Square square, bool isBlack);
+	void addMoves(Square square, bool isBlack);
+	void addBeating(Square square, bool isBlack);
 	Square choosenChecker;
+	std::list<std::pair<Square, bool>> possibleMoves;//bool representing if this move is a beating 
+	gameState gameState;
+
+	void showPossibleMoves();
+
 public:
 	Model::Model();
 	void move(int posX, int posY);

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <list>
+#include <vector>
 
 #define BOARD_SIZE 8
 
@@ -17,6 +18,6 @@ struct Square
 class Board {
 	void setBoard();
 public:
-	std::list<Square> squares;
+	std::vector<std::vector<Square>> squares;
 	Board();
 };
